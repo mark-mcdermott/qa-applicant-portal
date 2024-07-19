@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devServer: { port: 3001 },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', '@sidebase/nuxt-auth'],
   auth: {
-    computed: { pathname: development ? 'http://localhost:3000/api/auth/' : 'https://interview-app-backend.fly.dev/api/auth/' },
+    computed: { pathname: development ? 'http://localhost:3000/api/auth/' : 'https://qa-applicant-portal-backend.fly.dev/api/auth/' },
     isEnabled: true,
     globalAppMiddleware: { isEnabled: true },
     provider: {
