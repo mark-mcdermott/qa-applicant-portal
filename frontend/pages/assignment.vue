@@ -5,7 +5,19 @@
         Assignment
       </h4>
       <p class="text-lg text-gray-500 mt-2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a aliquet metus, non lacinia ligula. Vestibulum convallis massa vitae arcu fringilla rhoncus. In ut ligula posuere, fringilla leo sit amet, fringilla nisl. Nam orci odio, finibus a hendrerit sit amet, dapibus in risus. Phasellus maximus mattis turpis vitae gravida. Donec nec tellus elit. Mauris luctus mi ut est porta, sit amet lobortis felis imperdiet. Quisque ut eros pellentesque, vestibulum eros vel, cursus ligula. Nulla tortor purus, sollicitudin id gravida eu, efficitur eu elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum congue nibh vel egestas. Nulla vel lacinia sem.
+        The code assignment is to setup cypress/playwright tests for this website <a class="underline" target="_blank" href="https://automation-assignment-app.fly.dev">https://automation-assignment-app.fly.dev</a>. There are three pages on the site - Home, Public and Private. Write tests that:
+        <ul class="text-lg text-gray-500 mt-2 ml-8 list-disc">
+          <li>Test that all three pages are loading correctly.</li>
+          <li>Test that the text on the three pages is loading correctly.</li>
+          <li>Test that the login functionality is working correctly (the email is "email" and the password is "password")</li>
+          <li>Test that the API is returning the correct data:
+            <ul class="text-lg text-gray-500 mt-2 ml-8 list-disc">
+              <li>A POST to https://automation-assignment-app-backend.fly.dev/api/auth/login with JSON payload of { "user": { "email": "email", "password": "password" }} returns a long token</li>
+              <li>A POST to https://automation-assignment-app-backend.fly.dev/api/auth/session with the token in the header will return the user object</li>
+            </ul>
+          </li>
+
+        </ul>
       </p>
     </span>
   </div>

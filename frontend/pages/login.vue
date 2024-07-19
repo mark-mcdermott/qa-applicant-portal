@@ -1,7 +1,7 @@
 <script setup>
 const { signIn, status } = useAuth()
 definePageMeta({ auth: false })
-const email = ref('email')
+const email = ref('applicant@test.com')
 const password = ref('password')
 
 async function login() {

@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.23.0",
+    "@flydotio/dockerfile": "^0.5.8",
     "@nuxt/test-utils": "^3.13.1",
     "@vue/test-utils": "^2.4.6",
     "eslint": "9.5.0",

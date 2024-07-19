@@ -5,8 +5,12 @@
         Upload
       </h4>
       <p class="text-lg text-gray-500 mt-2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a aliquet metus, non lacinia ligula. Vestibulum convallis massa vitae arcu fringilla rhoncus. In ut ligula posuere, fringilla leo sit amet, fringilla nisl. Nam orci odio, finibus a hendrerit sit amet, dapibus in risus. Phasellus maximus mattis turpis vitae gravida. Donec nec tellus elit. Mauris luctus mi ut est porta, sit amet lobortis felis imperdiet. Quisque ut eros pellentesque, vestibulum eros vel, cursus ligula. Nulla tortor purus, sollicitudin id gravida eu, efficitur eu elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum congue nibh vel egestas. Nulla vel lacinia sem.
+        When you have completed the <NuxtLink to="/assignment">assigment</NuxtLink>, please zip your files into one zipfile and upload it here.
       </p>
+      <form class="mt-4">
+        <input id="file_input" class="block w-full text-lg text-gray-500 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:border-solid dark:placeholder-gray-400" type="file">
+        <submit to="/login" class="inline-block bg-cyan-500 hover:bg-cyan-600 mt-3 px-6 py-3 rounded-md text-white text-lg">Submit</submit>
+      </form>
     </span>
   </div>
 </template>
